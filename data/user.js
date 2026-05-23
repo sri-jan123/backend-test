@@ -1,0 +1,33 @@
+const user=[
+    {
+        id:1,
+        username:'abc',
+        password:'abc123',
+        city:'Delhi',
+    },
+    {
+        id:2,
+        username:'xyz',
+        password:'abc123',
+        city:'Banglore',
+    },
+    {
+        id:3,
+        username:'virat',
+        password:'virat123',
+        city:'Lucknow',
+    },
+    {
+        id:4,
+        username:'dhoni',
+        password:'dhoni123',
+        city:'Gorakhpur',
+    },
+    {
+        id:5,
+        username:'rohit',
+        password:'rohit123',
+        city:'Mumbai',
+    }
+]
+module.exports=user;

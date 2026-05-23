@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Information</title>
+</head>
+<body>
+    <%# Loop through users array %>
+    <% for (let user of users) { %>
+        <%# Check if user ID matches the given ID %>
+        <% if (user.id == id) { %>
+            <h1>User Information</h1>
+            <h2>Username: <%= user.username %></h2>
+            <h3>password: <%= user.password %></h3>
+            <h3>City: <%= user.city %></h3>
+        <% } %>
+    <% } %>
+</body>
+</html>
